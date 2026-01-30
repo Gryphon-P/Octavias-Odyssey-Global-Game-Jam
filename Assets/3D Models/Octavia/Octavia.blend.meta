@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d63e602b01544d84babd0bdc0dff1b71
+guid: 198b547d5cf13014681c66d1b1722259
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,99 +8,94 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_000_00_Body_00_SKIN (Instance)
-    second: {fileID: 2100000, guid: e8a1f7986d0abac46996d6dd95c538e7, type: 2}
+    second: {fileID: 2100000, guid: 0fae370be595fd3479ebb30c14bcd745, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_000_00_EyeHighlight_00_EYE (Instance)
-    second: {fileID: 2100000, guid: 54b50e6bf28c1714eaed0034d3ccc312, type: 2}
+    second: {fileID: 2100000, guid: fec06e5a8494dc84abc6371983ff3314, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_000_00_EyeIris_00_EYE (Instance)
-    second: {fileID: 2100000, guid: 37caa62458266f14ab1ec36d3bda2d63, type: 2}
+    second: {fileID: 2100000, guid: 3f5888e2636f5e04aaab89be28d285ab, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_000_00_EyeWhite_00_EYE (Instance)
-    second: {fileID: 2100000, guid: 59a5850a13141fc4d8f79d99470e1711, type: 2}
+    second: {fileID: 2100000, guid: d658cedea75ec5444a358e58acdac162, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_000_00_FaceBrow_00_FACE (Instance)
-    second: {fileID: 2100000, guid: 61b30b3c16156ed448ea0c95349f3db6, type: 2}
+    second: {fileID: 2100000, guid: 7685d5e66d58742449b98256c1d59f39, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_000_00_FaceEyeline_00_FACE (Instance)
-    second: {fileID: 2100000, guid: 96cf92f6c09de714a9ddb658941a96c0, type: 2}
+    second: {fileID: 2100000, guid: feb3c6e123aa0034ca2e201f2ad7a0b5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_000_00_FaceMouth_00_FACE (Instance)
-    second: {fileID: 2100000, guid: 8a0830a889dbc39449395c2310c672e6, type: 2}
+    second: {fileID: 2100000, guid: 55449744926873e48936acc55fb13036, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_000_00_Face_00_SKIN (Instance)
-    second: {fileID: 2100000, guid: 877dd1c84ac62574b93a582d619c23e7, type: 2}
+    second: {fileID: 2100000, guid: 26c9aab8a56f7c548a2c43bb6897f1c6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_000_00_HairBack_00_HAIR (Instance)
-    second: {fileID: 2100000, guid: a0247521e8f50f84ca1d7633519aee38, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: N00_000_Hair_00_HAIR (Instance)
-    second: {fileID: 2100000, guid: 82fe2c5f034a27049a4eb06d5b45284a, type: 2}
+    second: {fileID: 2100000, guid: eed65c4f4911824428049288cae2c94c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_001_02_Bottoms_01_CLOTH (Instance)
-    second: {fileID: 2100000, guid: d707a54bfbbb78144b2315145ebd11e5, type: 2}
+    second: {fileID: 2100000, guid: 8da34e6b18cca714e8bf3d8c2acd64e3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_002_03_Tops_01_CLOTH_01 (Instance)
-    second: {fileID: 2100000, guid: da464aaa81c30824b9c815be8f63dc48, type: 2}
+    second: {fileID: 2100000, guid: 5080731be295c2e4e86d23ad7bf70a43, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_002_03_Tops_01_CLOTH_02 (Instance)
-    second: {fileID: 2100000, guid: bfa1c39f0678149409e2f3e418471209, type: 2}
+    second: {fileID: 2100000, guid: befdfdc2e6fb0d74eb0802eb359b456d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_002_03_Tops_01_CLOTH_03 (Instance)
-    second: {fileID: 2100000, guid: e06474bda4160634684cabc5c4df6c52, type: 2}
+    second: {fileID: 2100000, guid: 84c82abbeefadee4992798d5057b6065, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_002_03_Tops_01_CLOTH_04 (Instance)
-    second: {fileID: 2100000, guid: 21ccd29574986f34d858f2f6043db544, type: 2}
+    second: {fileID: 2100000, guid: 9fcd6dcda9c47424badc28c1d600f39e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_002_03_Tops_01_CLOTH_05 (Instance)
-    second: {fileID: 2100000, guid: 925e189ff5204b54683289edf54da1f3, type: 2}
+    second: {fileID: 2100000, guid: e92c6aed2eb40a0429dc172b741549d6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_007_01_Tops_01_CLOTH_01 (Instance)
-    second: {fileID: 2100000, guid: f58cb4ee67b75d84380edb61300a3bcc, type: 2}
+    second: {fileID: 2100000, guid: 7cfe2b681585c9f4284bd5571bcbb0e3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_007_01_Tops_01_CLOTH_02 (Instance)
-    second: {fileID: 2100000, guid: 185830a1af070bd4d820e7e809aefc57, type: 2}
+    second: {fileID: 2100000, guid: ab8839432dbe1cc419259bf3989ff257, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: N00_008_01_Shoes_01_CLOTH (Instance)
-    second: {fileID: 2100000, guid: a721fbb54387a3b43bc9882e58b77fba, type: 2}
+    second: {fileID: 2100000, guid: 17d7fc86f3621934cb9a6d8aaf0afdb2, type: 2}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -117,7 +112,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -353,6 +348,14 @@ ModelImporter:
         modified: 0
     - boneName: J_Adj_R_FaceEye
       humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: J_Sec_Hair2_11
+      humanName: Jaw
       limit:
         min: {x: 0, y: 0, z: 0}
         max: {x: 0, y: 0, z: 0}
@@ -2513,7 +2516,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 1
+    hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
