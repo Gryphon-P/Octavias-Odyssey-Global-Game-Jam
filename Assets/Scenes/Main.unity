@@ -2310,7 +2310,7 @@ Transform:
   m_GameObject: {fileID: 270075841}
   serializedVersion: 2
   m_LocalRotation: {x: 0.15212296, y: -0.0000000017383762, z: 2.675609e-10, w: 0.9883616}
-  m_LocalPosition: {x: 65.69921, y: 8.213528, z: 75.63242}
+  m_LocalPosition: {x: 65.69921, y: 3.219527, z: 75.63242}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3635,6 +3635,82 @@ Transform:
   - {fileID: 962088752}
   m_Father: {fileID: 225915355}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &461011661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.1692634
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 80.61
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      propertyPath: m_Name
+      value: TileFloor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b35f099060a5172439c2a7000311698a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1057999382}
+  m_SourcePrefab: {fileID: 100100000, guid: b35f099060a5172439c2a7000311698a, type: 3}
 --- !u!1 &462128872
 GameObject:
   m_ObjectHideFlags: 0
@@ -4299,7 +4375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!154 &593302546
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -7516,6 +7592,33 @@ Transform:
   - {fileID: 1423907840}
   m_Father: {fileID: 462128873}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1057999378 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b35f099060a5172439c2a7000311698a, type: 3}
+  m_PrefabInstance: {fileID: 461011661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1057999382
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057999378}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2534964839176971238, guid: b35f099060a5172439c2a7000311698a, type: 3}
 --- !u!1 &1061969943
 GameObject:
   m_ObjectHideFlags: 0
@@ -8156,7 +8259,7 @@ Transform:
   m_GameObject: {fileID: 1138571713}
   serializedVersion: 2
   m_LocalRotation: {x: 0.15212297, y: -0.0000000017383763, z: 2.6756095e-10, w: 0.9883616}
-  m_LocalPosition: {x: 65.69921, y: 8.213528, z: 75.63242}
+  m_LocalPosition: {x: 65.69921, y: 3.219527, z: 75.63242}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9501,7 +9604,6 @@ MonoBehaviour:
     m_RigLayers:
       m_Rigs:
       - rid: 8919235730727239783
-      - rid: 8919235730727239796
       - rid: 8919235730727239797
   m_Footsteps:
     m_Feet:
@@ -9521,11 +9623,11 @@ MonoBehaviour:
       type: {class: CharacterKernel, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data:
         m_Player:
-          rid: 8919235730727239779
+          rid: 8919235730727240013
         m_Motion:
-          rid: 8919235730727239781
+          rid: 8919235730727240015
         m_Driver:
-          rid: 8919235727042281713
+          rid: 8919235730727240017
         m_Facing:
           rid: 8919235727042281714
         m_Animim:
@@ -9556,16 +9658,6 @@ MonoBehaviour:
     - rid: 8919235727042281710
       type: {class: RagdollNone, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
-    - rid: 8919235727042281713
-      type: {class: UnitDriverController, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data:
-        m_SkinWidth: 0.08
-        m_PushForce: 1
-        m_MaxSlope: 45
-        m_StepHeight: 0.3
-        m_Axonometry:
-          m_Axonometry:
-            rid: 8919235727042281718
     - rid: 8919235727042281714
       type: {class: UnitFacingPivot, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data:
@@ -9573,9 +9665,6 @@ MonoBehaviour:
         m_Axonometry:
           m_Axonometry:
             rid: 8919235727042281719
-    - rid: 8919235727042281718
-      type: {class: AxonometryNone, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data: 
     - rid: 8919235727042281719
       type: {class: AxonometryNone, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
       data: 
@@ -9590,51 +9679,6 @@ MonoBehaviour:
         m_Animator: {fileID: 1763043217}
         m_StartState: {fileID: 0}
         m_Reaction: {fileID: 0}
-    - rid: 8919235730727239779
-      type: {class: UnitPlayerDirectional, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data:
-        m_IsControllable: 1
-        m_InputMove:
-          m_Input:
-            rid: 8919235730727239780
-    - rid: 8919235730727239780
-      type: {class: InputValueVector2MotionPrimary, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
-      data: 
-    - rid: 8919235730727239781
-      type: {class: UnitMotionController, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data:
-        m_Interaction:
-          m_Radius: 2
-          m_Focus:
-            m_InteractionMode:
-              rid: 8919235730727239782
-        m_Speed: 4
-        m_Rotation:
-          m_IsEnabled: 1
-          m_Value: 1800
-        m_Mass: 80
-        m_Height: 2
-        m_Radius: 0.2
-        m_GravityUpwards: -9.81
-        m_GravityDownwards: -9.81
-        m_TerminalVelocity: -53
-        m_Acceleration:
-          m_UseAcceleration: 1
-          m_Acceleration: 10
-          m_Deceleration: 4
-        m_Jump:
-          m_CanJump: 1
-          m_AirJumps: 0
-          m_JumpForce: 5
-          m_JumpCooldown: 0.5
-        m_Dash:
-          m_InSuccession: 0
-          m_DashInAir: 0
-          m_Cooldown: 1
-    - rid: 8919235730727239782
-      type: {class: InteractionModeNearCharacter, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
-      data:
-        m_Offset: {x: 0, y: 0, z: 1}
     - rid: 8919235730727239783
       type: {class: RigTwitching, ns: GameCreator.Runtime.Characters.IK, asm: GameCreator.Runtime.Core}
       data:
@@ -9675,16 +9719,6 @@ MonoBehaviour:
       type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 1
-    - rid: 8919235730727239796
-      type: {class: RigFeetPlant, ns: GameCreator.Runtime.Characters.IK, asm: GameCreator.Runtime.Core}
-      data:
-        m_Breakpoint: 0
-        m_IsEnabled: 1
-        m_FootOffset: 0
-        m_FootMask:
-          serializedVersion: 2
-          m_Bits: 1011
-        m_SmoothTime: 0.25
     - rid: 8919235730727239797
       type: {class: RigLean, ns: GameCreator.Runtime.Characters.IK, asm: GameCreator.Runtime.Core}
       data:
@@ -9699,6 +9733,64 @@ MonoBehaviour:
         m_RollSpine: 5
         m_RollLowerChest: 5
         m_RollUpperChest: 10
+    - rid: 8919235730727240013
+      type: {class: UnitPlayerDirectional, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_IsControllable: 1
+        m_InputMove:
+          m_Input:
+            rid: 8919235730727240014
+    - rid: 8919235730727240014
+      type: {class: InputValueVector2MotionPrimary, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data: 
+    - rid: 8919235730727240015
+      type: {class: UnitMotionController, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_Interaction:
+          m_Radius: 2
+          m_Focus:
+            m_InteractionMode:
+              rid: 8919235730727240016
+        m_Speed: 4
+        m_Rotation:
+          m_IsEnabled: 1
+          m_Value: 1800
+        m_Mass: 80
+        m_Height: 2
+        m_Radius: 0.2
+        m_GravityUpwards: -9.81
+        m_GravityDownwards: -9.81
+        m_TerminalVelocity: -53
+        m_Acceleration:
+          m_UseAcceleration: 1
+          m_Acceleration: 10
+          m_Deceleration: 4
+        m_Jump:
+          m_CanJump: 1
+          m_AirJumps: 0
+          m_JumpForce: 5
+          m_JumpCooldown: 0.5
+        m_Dash:
+          m_InSuccession: 0
+          m_DashInAir: 0
+          m_Cooldown: 1
+    - rid: 8919235730727240016
+      type: {class: InteractionModeNearCharacter, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_Offset: {x: 0, y: 0, z: 1}
+    - rid: 8919235730727240017
+      type: {class: UnitDriverController, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data:
+        m_SkinWidth: 0.08
+        m_PushForce: 1
+        m_MaxSlope: 45
+        m_StepHeight: 0.3
+        m_Axonometry:
+          m_Axonometry:
+            rid: 8919235730727240018
+    - rid: 8919235730727240018
+      type: {class: AxonometryNone, ns: GameCreator.Runtime.Characters, asm: GameCreator.Runtime.Core}
+      data: 
 --- !u!4 &1335222984
 Transform:
   m_ObjectHideFlags: 0
@@ -9708,7 +9800,7 @@ Transform:
   m_GameObject: {fileID: 1335222982}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0012300947, y: -0.0008142294, z: 0.0009609665, w: 0.9999985}
-  m_LocalPosition: {x: 65.7, y: 6.3, z: 80.4}
+  m_LocalPosition: {x: 65.7, y: 1.306, z: 80.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15093,3 +15185,4 @@ SceneRoots:
   - {fileID: 667111123}
   - {fileID: 593302548}
   - {fileID: 1335222984}
+  - {fileID: 461011661}
